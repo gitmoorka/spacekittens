@@ -2,27 +2,30 @@
 
 /* Basic HTML elements */
 
+* {
+  box-sizing: border-box;
+}
+
 body{
   background: rgb(245,245,245);
-  color: black;
+  color: green;
   font-size: 25px;
   font-family: Helvetica;
 }
 h1{
-  font-family: Helvetica;
-  color: black;
+  font-family: Courier;
+  color: red;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 50px;
 }
 h2 {
-  font-family: Helvetica;
-  color: black;
+  font-family: Courier;
+  color: pink;
   font-weight: lighter;
   font-size: 18px;
 }
 a {
-  color: black;
-  display: inline;
+  color: yellow;
 }
 a:hover {
   text-decoration: none;
@@ -56,12 +59,13 @@ li{
   text-align: left;
   margin-bottom: 10px;
   opacity: 0.7;
-
+}
 
 #footer a {
   color: lightgrey;
   font-size: 15px;
 }
+
 #footer a:hover {
   color: white;
 }
@@ -87,10 +91,6 @@ font: 3em;
 }
 
 /* Silvia's CSS */
-
-* {
-  box-sizing: border-box;
-}
 
 
 .menu {
@@ -128,38 +128,13 @@ font: 3em;
     width: 100%;
   }
 }
-@media only screen and (max-width:500px) {
+
   /* For mobile phones: */
+
+@media only screen and (max-width:500px) {
   .menu, .main, .right {
     width: 100%;
   }
-}
-
-
-body{
-  background: rgb(245,245,245);
-  color: green;
-  font-size: 25px;
-  font-family: Helvetica;
-}
-h1{
-  font-family: Courier;
-  color: red;
-  font-weight: lighter;
-  font-size: 50px;
-}
-h2 {
-  font-family: Courier;
-  color: pink;
-  font-weight: lighter;
-  font-size: 18px;
-}
-a {
-  color: yellow;
-}
-a:hover {
-  text-decoration: none;
-  color: purple;
 }
 
 #logo{
@@ -169,10 +144,12 @@ a:hover {
   color: lightgrey;
   text-shadow: 1px 1px 5px black;
 }
+
 #logo h1 {
   color: white;
   font-size: 50px;
 }
+
 #logo p {
   color: white;
   opacity: 0.8;
@@ -180,15 +157,17 @@ a:hover {
   font-weight: lighter;
 }
 
-#footer{
+#footer {
   padding: 30px;
   background: rgb(30, 30, 30);
   color: lightgrey;
 }
+
 #footer a {
   color: lightgrey;
   font-size: 15px;
 }
+
 #footer a:hover {
   color: white;
 }
