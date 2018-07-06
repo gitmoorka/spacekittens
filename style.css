@@ -21,11 +21,17 @@ h2 {
   font-size: 18px;
 }
 a {
-  color: yellow;
+  color: black;
+  display: inline;
 }
 a:hover {
   text-decoration: none;
   color: purple;
+}
+
+li{
+  display: inline;
+  margin-right: 25px;
 }
 
 /* ID */
