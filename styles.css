@@ -4,19 +4,19 @@
 
 body{
   background: rgb(245,245,245);
-  color: green;
+  color: purple;
   font-size: 25px;
   font-family: Helvetica;
 }
 h1{
   font-family: Courier;
-  color: red;
+  color: purple;
   font-weight: lighter;
   font-size: 10px;
 }
 h2 {
   font-family: Courier;
-  color: pink;
+  color: purple;
   font-weight: lighter;
   font-size: 8px;
 }
