@@ -90,6 +90,10 @@ font: 3em;
   font-weight: lighter;
 }
 
+.wrapper {
+  display:grid;
+}
+
 /* Silvia's CSS */
 
 
@@ -116,6 +120,7 @@ font: 3em;
   padding: 10px 15px;
   margin-top: 7px;
 }
+
 
   /* For tablets: */
 
