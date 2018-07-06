@@ -83,7 +83,8 @@ font: 3em;
 * {
   box-sizing: border-box;
 }
-.menu {
+
+/*.menu {
   float: left;
   text-indent: 15%;
   width: 15%;
@@ -124,7 +125,7 @@ font: 3em;
   }
 }
 
-body{
+/*body{
   background: rgb(245,245,245);
   color: green;
   font-size: 25px;
